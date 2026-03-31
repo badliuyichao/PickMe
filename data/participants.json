@@ -1,0 +1,44 @@
+{
+  "participants": [
+    {
+      "id": 1,
+      "name": "史高占",
+      "department": ""
+    },
+    {
+      "id": 2,
+      "name": "杨洪波",
+      "department": ""
+    },
+    {
+      "id": 3,
+      "name": "顾晓辉",
+      "department": ""
+    },
+    {
+      "id": 4,
+      "name": "高树江",
+      "department": ""
+    },
+    {
+      "id": 5,
+      "name": "郭秀瑰",
+      "department": ""
+    },
+    {
+      "id": 6,
+      "name": "殷双斌",
+      "department": ""
+    },
+    {
+      "id": 7,
+      "name": "费康会",
+      "department": ""
+    },
+    {
+      "id": 8,
+      "name": "王小飞",
+      "department": ""
+    }
+  ]
+}

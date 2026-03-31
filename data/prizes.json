@@ -1,0 +1,11 @@
+{
+  "prizes": [
+    {
+      "id": 1,
+      "name": "AI实践",
+      "count": 1,
+      "drawn": 0,
+      "color": "#FFD700"
+    }
+  ]
+}
