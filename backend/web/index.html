@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PickMe 抽奖系统</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/tabs.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="brand">PickMe 抽奖系统</h1>
+    <nav class="tabs" role="tablist">
+      <button class="tab-btn active" data-tab="participants">参与者管理</button>
+      <button class="tab-btn" data-tab="prizes">奖项设置</button>
+      <button class="tab-btn" data-tab="lottery">抽奖</button>
+      <button class="tab-btn" data-tab="results">中奖名单</button>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="tab-pane" data-tab="participants">
+      <p class="placeholder">参与者管理（阶段 5 完善）</p>
+    </section>
+    <section class="tab-pane hidden" data-tab="prizes">
+      <p class="placeholder">奖项设置（阶段 4 完善）</p>
+    </section>
+    <section class="tab-pane hidden" data-tab="lottery">
+      <p class="placeholder">抽奖（阶段 8-9 完善）</p>
+    </section>
+    <section class="tab-pane hidden" data-tab="results">
+      <p class="placeholder">中奖名单（阶段 3-4 完善）</p>
+    </section>
+  </main>
+
+  <canvas id="fx-canvas" style="position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:0; pointer-events:none;"></canvas>
+
+  <script src="/js/three.min.js"></script>
+  <script src="/js/three/background.js"></script>
+  <script src="/js/three/firework.js"></script>
+  <script src="/js/three/roller.js"></script>
+  <script src="/js/three/fx.js"></script>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

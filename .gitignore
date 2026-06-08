@@ -4,43 +4,37 @@ __pycache__/
 *$py.class
 *.so
 .Python
-
-# 打包相关
-build/
-dist/
 *.egg-info/
 *.egg
 
 # PyInstaller
+build/
+dist/
+*.spec.bak
 *.manifest
-*.spec
 
-# IDE
+# IDE / 工具
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Claude Code 工具目录
 .claude/
-
-# 测试和覆盖率
+*.log
+*.tmp
+*.bak
+*~
 .pytest_cache/
 .coverage
 htmlcov/
-
-# 日志文件
-*.log
 
 # 环境变量
 .env
 .env.local
 
-# 临时文件
-*.tmp
-*.bak
-*~
+# 运行期生成 (SQLite 数据库 + 导入幂等标记)
+backend/data/pickme.db
+backend/data/pickme.db-*
+backend/data/imported.flag
+backend/scripts/imported.flag
 
-# OS生成的文件
+# OS
 .DS_Store
 Thumbs.db
